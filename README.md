@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a state centric language that revolves around capturing data, using data, manipulating data, and ensuring old and new data isn't corrupted in the process. It allows us to present UI to the user in the form of components, standalone and resuable bits of code that feed off data. 
+
 1. Describe component state.
+
+Component state is the data that will be utilized within the code and determines how components behave and "react".
 
 1. Describe props.
 
+Props are how we transport data from parent components down to children components so that values are reusable in a chain like path. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are like follow up functions to a state change within the UI. If you switch something on, you may use an effect to send a message to a central console indicating somethings been turned on. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
