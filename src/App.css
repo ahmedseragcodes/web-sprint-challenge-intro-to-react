@@ -6,3 +6,11 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+html {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+  font-size: 62.5%;
+  font-family: 'Titillium Web', sans-serif;
+}
