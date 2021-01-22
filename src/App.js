@@ -8,6 +8,7 @@ const App = () => {
 
   const [characters, setCharacters]=useState([]);
 
+  //axios request for star wars characters 
   useEffect(function(){
     axios.get("https://swapi.dev/api/people/")
     .then(function(res){
